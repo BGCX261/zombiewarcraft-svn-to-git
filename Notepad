@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>ZombieWarcraft</title>
+        <meta name="description" content="ZombieWarcraft is a game about placing blocks to build anything you can imagine. You can make levels for cod like zombie games, make sure to build a shelter before that happens.">
+        <meta name="author" content="AxZombiexKiller ">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   <link rel="shortcut icon" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="stylesheet" href="/stylesheets/style.css?b=b_417">
+        <link rel="stylesheet" media="handheld" href="/stylesheets/handheld.css?b=b_417">
+                <!--[if !IE 7]>
+        <style type="text/css">
+        #wrap {display:table;height:100%}
+        </style>
+        <![endif]-->
+        <script src="/javascripts/libs/modernizr.min.js"></script>
+        <script>
+            function recordOutboundLink(link, category, action, label, value) {
+                try {
+                    _gaq.push(['_trackEvent', category, action, label, value]);
+                    setTimeout('document.location = "' + link.href + '"', 100);
+                }catch(err){}
+            }  var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-9482675-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="iframe">
+        </div>
+        <div id="wrap">
+            <header>
+                <div id="header_container" class="clearfix">
+                    <a id="logo" href="/">ZombieWarcraft</a>
+                    <ul id="menu">
+                        <li><a href="/">Home</a></li>
+                        <li>
+                            <a href="/game">Game</a>
+                            <ul>
+                                <li><a href="/game">About the Game</a></li>
+                                <li><a href="/game/howtoplay">How to Play</a></li>
+                                <li><a href="/game/credits">Credits</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/community">Community</a></li>
+                        <li><a href="/store">Store</a></li>
+                        <li><a href="/profile">Profile</a></li>
+                        <li><a href="http://help.ZombieWarcraft.com">Help</a></li>
+                    </ul>
+                    <div id="userbox">                                                                       <span class="logged-out"><a href="/login" >Log in</a> | <a href="/register">Register</a></span>
+                                            </div>
+                </div>
+            </header>
+
+            <noscript>
+            <div id="javascript-warning" class="warning warning-yellow">
+                Please, please enable JavaScript to use this site.
+            </div>
+            </noscript>
+
+            <div id="main" role="main" class="clearfix controller-Classic action-play">
+                <div style="width:100%; margin:40px auto 0; text-align: center; margin-top:1.6em">
+    <applet code="org.lwjgl.util.applet.AppletLoader" archive="https://s3.amazonaws.com/MinecraftDownload/classic/lwjgl_util_applet.jar?v=15, https://s3.amazonaws.com/MinecraftDownload/classic/lzma.jar?v=15" codebase="." width="854" height="480">
+        <param name="al_title" value="ZombieWarcraft">
+        <param name="al_main" value="com.AxZombiexKiller.ZombieWarcraft.ZombieWarcraftApplet">
+        <param name="al_logo" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/logo_small.png">
+        <param name="al_progressbar" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/appletprogress.gif">
+        <param name="al_jars" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/lwjgl_applet.jar.pack.lzma, https://s3.amazonaws.com/ZombieWarcraftDownload/classic/lwjgl.jar.pack.lzma, https://s3.amazonaws.com/ZombieWarcraftDownload/classic/jinput.jar.pack.lzma, https://s3.amazonaws.com/ZombieWarcraftDownload/classic/lwjgl_util.jar.pack.lzma, https://s3.amazonaws.com/ZombieWarcraftDownload/classic/minecraft.jar">
+        <param name="al_windows" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/windows_natives.jar.lzma">
+        <param name="al_linux" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/linux_natives.jar.lzma">
+        <param name="al_mac" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/macosx_natives.jar.lzma">
+        <param name="al_solaris" value="https://s3.amazonaws.com/ZombieWarcraftDownload/classic/solaris_natives.jar.lzma">
+        <param name="al_version" value="7.21">
+        <param name="separate_jvm" value="true">
+        <param name="java_arguments" value="-Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false -Xmx800M">
+        <param name="boxmessage" value="ZombieWarcraft started">
+        <param name="boxbgcolor" value="#BB0000">
+        <param name="al_bgcolor" value="001100">
+        <param name="al_fgcolor" value="555555">
+        <param name="al_errorcolor" value="ff0000">
+        <param name="al_prepend_host" value="true">
+            </applet>          </applet>
+    <p>
+    <center>
+        This game requires Java. Press escape to release the mouse.<br />
+        Press B!
+    </center>
+</p>
+
+<h2>Controls</h2>
+<ul style="list-style-type: none">
+    <li>WASD to move.</li>
+    <li>Space to jump.</li>
+    <li>R to respawn at the spawn point.</li>
+    <li>Enter to set a new spawn point.</li>
+    <li>B to open the inventory.</li>
+    <li>F to toggle fog distance.</li>
+    <li>Escape to release mouse and open game menu.</li>
+    <li>1-9 or scrollwheel to change building block type.</li>
+    <li>Right mouse button to add a block.</li>
+    <li>Left mouse button to remove a block.</li>
+    <li>Middle mouse button to copy block type.</li>
+    </ul>
+<p>
+    In multiplayer:
+</p>
+<ul>
+    <li>Tab to list players.</li>
+    <li>Spacebar to chat.</li>
+</ul>
+</div>            </div>
+        </div>
+
+        <footer>
+            AxZombiesxKiller &copy; 2009-2012. "ZombieWarcraft" is a trademark of AxZombiesxKiller &mdash; <a href="/terms">Terms of Use</a> &mdash; b_417 r_25b3e6cee5224dc810eb5c36db32ed069a60d88e
+        </footer>
+
+        <script src="/javascripts/libs/json2.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+        <script src="/javascripts/libs/jquery.dataTables.min.js"></script>
+                <script src="/javascripts/libs/jquery.timeago.js"></script>
+        <script src="/javascripts/libs/sammy.js"></script>
+        <script type="text/javascript">
+
+  var accountServiceAddress = "http://account.AxZombiesxKiller.local:9001";
+
+            var app = $.sammy('#main', function() {
+
+                this.debug = true;
+
+                this.get('/', function() {
+                    var action = function(options) {var pattern = '/'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/game', function() {
+                    var action = function(options) {var pattern = '/game'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/login', function() {
+                    var action = function(options) {var pattern = '/login'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/register', function() {
+                    var action = function(options) {var pattern = '/register'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+            });
+
+            $(document).ready(function() {
+                if ($('html').is('.history') && false) {
+                    app.run(window.location.pathname);
+                } else {
+                    $(document).trigger('changed');
+                }
+            });
+        </script>
+        <script src="/javascripts/plugins.js?b=b_417"></script>
+        <script src="/javascripts/main.js?b=b_417"></script>
+ <div id="wrapper">
+  <div id="header">
+    <span class="logoHover"><a href="http://ZombieWarcraft.com"><img class="Zombie-logo" src="http://cdn.ZombieWarcraft.com/theme/images/ZombieWarcraft-logo.gif" width="239" height="59" alt="ZombieWarcraft" />
+
+</a></span>    <div id="top-banner">
+<!-- BEGIN GN Ad Tag for ZombieWarcraft 728x90 game -->
+<script type="text/javascript">
+  if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.ZombieWarcraft.com/game;sect=game;sz=728x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+</script>
+<!-- END AD TAG -->
+href='http://ninjakiwi.com/blog/' title="Blog">Blog</a></li><li ><a href='http://ninjakiwi.com/Forum/' title="Forum">Forum</a></li></ul>    </div>
+<div id="inner-wrapper"> 
+
+<div id="large-game-wrapper">
+      <div align="center" class="large-game  dark-module-scratch rounded"> <div id="play800">
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="600">
+      <param name="movie" value="http://fgagmqab.joyent.us/ZWC/ZWC.swf" />
+	  <param name="AllowScriptAccess" value="always">
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="http://fgagmqab.joyent.us/ZWC/ZWC.swf" width="800" height="600">
+	  <param name="AllowScriptAccess" value="always">
+        <!--<![endif]-->
+        <p>Get Flash play AxZombiesxKiller games.</p>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+    </div></div>
+      <div class="ad-large-game"> <div align="center" class="left-module center-align rounded">
+<iframe src ="http://ZombieWarcraft.com/includes/ads/ad_SS1_160x600-iframe.html" width="160" height="600" scrolling="no" marginheight="0" marginwidth="0" frameborder="0">
+</iframe>
+</div> </div>
+      <div class="clear"></div>
+    </div><script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/38/eum/rum-staging.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","58db2ecb99",511739,"NgRaMUdQXBIHWhFeWg9ObRdcHnUAC1wWGHQCFVEKWx5iDQdASmR0MkxiClhTWwRLeBZEVBQNTEgGH1oVC1U=",0,13,new Date().getTime()]);</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
